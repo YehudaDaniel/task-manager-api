@@ -13,11 +13,14 @@ make sure to also include `PORT` with a port number inside that file in order fo
 Also you can include `JWT_SECRET` with your own secret for the jsonwebtoken.
 Last but not least, add `SENDGRID_API_KEY` in order for the **sendgrid** package to send welcome emails.
 
-**Example (dev.env)**
-`DATABASE_URL=mongodb://<ADDRESS>/<COLLECTION NAME>
- PORT=3000
- SENDGRID_API_KEY=<YOUR API KEY>
- JWT_SECRET=<JSONWEBTOKEN CUSTOM SECRET>
+Example (dev.env):
+
+```
+DATABASE_URL=mongodb://<ADDRESS>/<COLLECTION NAME>
+PORT=3000
+SENDGRID_API_KEY=<YOUR API KEY>
+JWT_SECRET=<JSONWEBTOKEN CUSTOM SECRET>
+```
 
 ## Debugging
 This project is customized with easy to use debugging tests.
