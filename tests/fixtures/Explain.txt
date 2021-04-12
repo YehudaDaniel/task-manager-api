@@ -1,0 +1,1 @@
+In the testing world, fixtures are thing that allow you to set up the environment your tests are going to run in.
